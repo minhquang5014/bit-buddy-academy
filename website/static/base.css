@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 ul {
     list-style: none;
-
 }
 
 .active {
     color: #fc036b;
     text-decoration:underline;
     font-weight: bold;
-
 }
 
 .navbar {
@@ -41,7 +41,9 @@ ul {
     top: 30px;
     right: 30px; 
     width: 40px;
+    height: 30px;
     cursor: pointer;
+    color: black;
 }
 
 @media only screen and (max-width: 768px) {
