@@ -2,11 +2,22 @@
 {% block title %}Bit Buddy{% endblock %}
 
 {% block styles %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css_folder/home.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<link rel="stylesheet" href="/static/css_folder/home.css">
+<!-- <link rel="stylesheet" href="/static/style.css"> -->
 {% endblock %}
 
 {% block content %}
-<h1>Hello world</h1>
+<header>
+
+    <div class="header-content">
+        <h2>Bit Buddy</h2>
+        <div class="line"></div>
+        <h1>Ươm mầm tài năng trẻ</h1>
+        <!-- <div class="line"></div> -->
+        <a href="" class="ctn">Get Started</a>
+
+    </div>
+</header>
+
 {% endblock %}

@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link
             rel="stylesheet"
-            href="/static/css_folder/base2.css"
+            href="/static/base.css"
         > 
         {% block styles %}{% endblock %}
         <title>{% block title %}{% endblock %}</title>
@@ -26,34 +26,23 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/">Home</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog">Blog</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="navbar">
+            <h1 class="logo">Bit Buddy</h1>
+            <u1 class="nav-links">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </u1>
+            <img scr="/static/anh_1.png" class="menu-icon">
         </nav>
-        <div class="container">
-            {% block content %}{% endblock %}
+        {% block content %}{% endblock %}
+        <script>
+            const menuBtn = document.querySelector('.menu-icon');
+            const navlinks = document.querySelector('.nav-links');
+            menuBtn.addEventListener('click', () => {
+                navlinks.classList.toggle('mobile-manu');
+            });
+        </script>
     </body>
 </html>
