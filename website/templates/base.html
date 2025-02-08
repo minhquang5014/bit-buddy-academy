@@ -39,9 +39,10 @@
         {% block content %}{% endblock %}
         <script>
             const menuBtn = document.querySelector('.menu-icon');
-            const navlinks = document.querySelector('.nav-links');
+            const navLinks = document.querySelector('.nav-links');
+    
             menuBtn.addEventListener('click', () => {
-                navlinks.classList.toggle('mobile-manu');
+                navLinks.classList.toggle('mobile-menu');
             });
         </script>
     </body>

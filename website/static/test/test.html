@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Buddy Academy</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Bit Buddy</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+        <img src="/static/anh_1.png" class="menu-icon" alt="Menu">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="introduction">
+                <h2>KHÓA HỌC</h2>
+                <h3>LẬP TRÌNH CÔNG NGHỆ CHO TRẺ EM</h3>
+                <h4>BIT BUDDY ACADEMY</h4>
+            </div>
+            <div class="line"></div>
+            <a href="#" class="ctn">Get Started</a>
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+</body>
+</html>

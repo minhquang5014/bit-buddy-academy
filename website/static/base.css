@@ -1,78 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
 ul {
     list-style: none;
+    transform: scale(0.5); /* Shrinks the whole <ul> */
+    transform-origin: center; /* Keeps scaling centered */
+}
+
+/* === Navbar Styles === */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: nowrap; /* Prevents wrapping */
+    overflow: visible; /* Ensures items don't disappear */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevents list from collapsing */
+    gap: 20px; /* Adds space between list items */
+}
+
+.nav-links li {
+    white-space: nowrap; /* Prevents text from wrapping inside li */
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .active {
     color: #fc036b;
-    text-decoration:underline;
     font-weight: bold;
-}
-
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 20px;
-    color: black;
-}
-
-.nav-links{
-    display:flex;
-    align-items:center;
-}
-
-.nav-links li {
-    margin: 0 30px;
+    text-decoration: underline;
 }
 
 .contact {
     padding: 8px 15px;
     background-color: #fc036b;
     border-radius: 30px;
-    color: black;
+    color: white;
 }
+
+/* === Hamburger Menu (Mobile) === */
 .menu-icon {
-    position: absolute;
-    top: 30px;
-    right: 30px; 
-    width: 40px;
+    display: none;
+    width: 35px;
     height: 30px;
     cursor: pointer;
-    color: black;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        justify-content: space-between;
-        padding: 0;
-    }
-    .logo{
+@media only screen and (max-width: 900px) {
+    .menu-icon {
+        display: block;
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: 20px;
+        right: 30px;
     }
-    .nav-links {
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        background: darkblue;
-        margin-top: -900px;
-        transition: all 0.5s ease;
 
-    }
-    .mobile-menu {
-        margin-top: 0px;
-    }
-    .nav-links li {
-        margin: 30px auto;
-    }
-    .contact {
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: rgba(0, 0, 12, 0.9);
+        text-align: center;
+        padding: 20px 0;
         display: none;
+        z-index: 1000;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .introduction h2,
+    .introduction h3,
+    .introduction h4 {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .ctn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
     }
 }
