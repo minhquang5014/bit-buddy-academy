@@ -56,7 +56,15 @@ header::before {
     background-color: rgb(63, 63, 226);
     margin: 10px 0;
 }
-
+.introduction h2 {
+    background-color: gray;
+}
+.introduction h3 {
+    background-color: rgb(224, 106, 69)
+}
+.introduction h4 {
+    background-color: gray;
+}
 .line {
     height: 3px;
     width: 80px;
@@ -83,8 +91,8 @@ header::before {
 
 .header-content a {
     padding: 10px 20px;
-    background-color: rgb(194, 72, 23);
-    color: black;
+    background-color: rgb(91, 9, 245);
+    color: whitesmoke;
     border-radius: 5px;
     font-size: 1.2rem;
     border-radius: 10px;
