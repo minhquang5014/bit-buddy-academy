@@ -16,10 +16,11 @@
             crossorigin="anonymous"
         >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="icon" href="/static/bit-buddy.png" />
         <link
             rel="stylesheet"
             href="/static/base.css"
-        > 
+        >
         {% block styles %}{% endblock %}
         <title>{% block title %}{% endblock %}</title>
 
@@ -27,11 +28,12 @@
 
     <body>
         <nav class="navbar">
-            <h1 class="logo">Bit Buddy</h1>
+            <img src="/static/bit-buddy.png" class="logo">
             <u1 class="nav-links">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li class="active"><a href="#">Trang chủ</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Khóa học</a></li>
+                <li><a href="#">Giảng viên</a></li>
                 <li class="contact"><a href="#">Contact</a></li>
             </u1>
             <img scr="/static/anh_1.png" class="menu-icon">

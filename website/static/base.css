@@ -28,8 +28,9 @@ ul {
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+    width: 90px;
+    height: 55px;
+    cursor: pointer;
 }
 
 .active {
