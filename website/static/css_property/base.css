@@ -42,6 +42,7 @@ ul {
 .contact {
     padding: 8px 15px;
     background-color: #fc036b;
+    border-color: rgba(0, 0, 230, 0.9);
     border-radius: 30px;
     color: white;
 }
