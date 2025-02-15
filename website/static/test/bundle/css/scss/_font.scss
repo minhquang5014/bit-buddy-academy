@@ -1,0 +1,142 @@
+
+@font-face {
+	font-family: 'UTMSwiss';
+	src: url('fonts/UTMSwissCondensedBold.ttf');
+}
+
+@font-face {
+	font-family: 'UTMSwissRegular';
+	src: url('fonts/UTMSwissCondensed.ttf');
+}
+
+@font-face {
+	font-family: "poppins";
+	src: url("fonts/SVN-Poppins-Regular.eot"); /* IE9 Compat Modes */
+	src: url("fonts/SVN-Poppins-Regular.woff") format("woff"),
+	  /* Pretty Modern Browsers */ url("fonts/SVN-Poppins-Regular.ttf") format("truetype");
+	font-display: swap;
+	font-weight: normal;
+  }
+  @font-face {
+	font-family: "poppins";
+	src: url("fonts/SVN-Poppins-SemiBold.eot"); /* IE9 Compat Modes */
+	src: url("fonts/SVN-Poppins-SemiBold.woff") format("woff"),
+	  /* Pretty Modern Browsers */ url("fonts/SVN-Poppins-SemiBold.ttf") format("truetype");
+	font-display: swap;
+	font-weight: 600;
+  }
+  @font-face {
+	font-family: "poppins";
+	src: url("fonts/SVN-Poppins-Bold.eot"); /* IE9 Compat Modes */
+	src: url("fonts/SVN-Poppins-Bold.woff") format("woff"),
+	  /* Pretty Modern Browsers */ url("fonts/SVN-Poppins-Bold.ttf") format("truetype");
+	font-display: swap;
+	font-weight: 700;
+  }
+  @font-face {
+	font-family: "poppins";
+	src: url("fonts/SVN-Poppins-Bold.eot"); /* IE9 Compat Modes */
+	src: url("fonts/SVN-Poppins-Bold.woff") format("woff"),
+	  /* Pretty Modern Browsers */ url("fonts/SVN-Poppins-Bold.ttf") format("truetype");
+	font-display: swap;
+	font-weight: 800;
+  }
+  @font-face {
+	font-family: "poppins";
+	src: url("fonts/SVN-Poppins-Black.eot"); /* IE9 Compat Modes */
+	src: url("fonts/SVN-Poppins-Black.woff") format("woff"),
+	  /* Pretty Modern Browsers */ url("fonts/SVN-Poppins-Black.ttf") format("truetype");
+	font-display: swap;
+	font-weight: 900;
+  }
+  @font-face {
+	font-family: "poppins";
+	src: url("fonts/SVN-Poppins-Black.eot"); /* IE9 Compat Modes */
+	src: url("fonts/SVN-Poppins-Black.woff") format("woff"),
+	  /* Pretty Modern Browsers */ url("fonts/SVN-Poppins-Black.ttf") format("truetype");
+	font-display: swap;
+	font-weight: bold;
+  }
+
+@font-face {
+	font-family: 'UTMAndrogyne';
+	src: url('fonts/UTMAndrogyne.ttf');
+}
+@font-face {
+	font-family: 'UTMBeautifulCaps';
+	src: url('fonts/UTMBeautifulCaps.ttf');
+}
+@font-face {
+	font-family: 'AvenirNext';
+	src: url('fonts/AvenirNext-DemiBold.ttf');
+}
+@font-face {
+	font-family: 'AvenirNextRegular';
+	src: url('fonts/AvenirNext-Regular.ttf');
+}
+@font-face {
+	font-family: 'AvenirNext';
+	font-weight: bold;
+	src: url('fonts/AvenirNext-Bold.ttf');
+}
+@font-face {
+	font-family: 'UTMPenumbraBold';
+	src: url('fonts/UTMPenumbraBold.ttf');
+}
+@font-face {
+	font-family: 'UTMNeutra';
+	src: url('fonts/UTMNeutra.ttf');
+}
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('fonts/UTMAvo.ttf');
+}
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('fonts/UTMAvoBold.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'UTMAptimaBold';
+	src: url('fonts/UTMAptimaBold.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'UTMYenTu';
+	src: url('fonts/UTMYenTu.ttf');
+}
+@font-face {
+	font-family: 'UTMLinotypeZapfinoKT';
+	src: url('fonts/UTMLinotypeZapfinoKT.ttf');
+}
+@font-face {
+	font-family: 'UTMNokiaStandardB';
+	src: url('fonts/UTMNokiaStandardB.ttf');
+}
+@font-face {
+	font-family: 'UTMTimes';
+	src: url('fonts/UTMTimes.ttf');
+}
+@font-face {
+	font-family: 'UTMTimesBold';
+	src: url('fonts/UTMTimesBold.ttf');
+}
+@font-face {
+	font-family: 'UTMNeoSansIntel';
+	src: url('fonts/UTMNeoSansIntel-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/UTMNeoSansIntel-Italic.woff2') format('woff2'), url('fonts/UTMNeoSansIntel-Italic.woff') format('woff'), url('fonts/UTMNeoSansIntel-Italic.ttf') format('truetype'), url('fonts/UTMNeoSansIntel-Italic.svg#UTMNeoSansIntel-Italic') format('svg');
+}
+@font-face {
+	font-family: 'UTMNeoSansIntel';
+	src: url('fonts/UTMNeoSansIntel-BoldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/UTMNeoSansIntel-BoldItalic.woff2') format('woff2'), url('fonts/UTMNeoSansIntel-BoldItalic.woff') format('woff'), url('fonts/UTMNeoSansIntel-BoldItalic.ttf') format('truetype'), url('fonts/UTMNeoSansIntel-BoldItalic.svg#UTMNeoSansIntel-BoldItalic') format('svg');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'UTMNetmucKT';
+	src: url('fonts/UTMNetmucKT.ttf');
+}
+@font-face {
+	font-family: 'UTMEricssonCapital';
+	src: url('fonts/UTMEricssonCapital.ttf');
+}
