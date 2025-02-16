@@ -36,7 +36,9 @@ header::before {
 
 /* === Text Styling === */
 .header-content {
+    margin-top: 150px;
     color: white;
+
 }
 
 .introduction {
