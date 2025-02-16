@@ -25,6 +25,8 @@ ul {
 
 .nav-links li {
     white-space: nowrap; /* Prevents text from wrapping inside li */
+    color: whitesmoke;
+    font-size: 15px;
 }
 
 .logo {
@@ -33,17 +35,17 @@ ul {
     cursor: pointer;
 }
 
-.active {
+/* .active {
     color: #fc036b;
     font-weight: bold;
     text-decoration: underline;
-}
+} */
 
 .contact {
-    padding: 8px 15px;
-    background-color: #fc036b;
-    border-color: rgba(0, 0, 230, 0.9);
-    border-radius: 30px;
+    /* border-color: #fc036b;
+    border-width: 2px; 
+    border-style: solid; 
+    border-radius: 30px;  */
     color: white;
 }
 
@@ -69,7 +71,7 @@ ul {
         left: 0;
         width: 100%;
         flex-direction: column;
-        background: rgba(0, 0, 12, 0.9);
+        background: rgb(226, 118, 68);
         text-align: center;
         padding: 20px 0;
         display: none;
@@ -78,6 +80,7 @@ ul {
 
     .nav-links li {
         margin: 15px 0;
+        font-weight: bold;
     }
 
     .mobile-menu {
