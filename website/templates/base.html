@@ -38,7 +38,76 @@
             <!-- <img scr="/static/images/anh_1.png" class="menu-icon"> -->
             <button class="menu-icon">☰</button>
         </nav>
+
         {% block content %}{% endblock %}
+
+        <footer class="py-4 py-lg-5" style="background-color: rgb(223, 119, 59);">
+            <div class="container py-lg-3">
+                <div class="logo-box d-flex align-items-center justify-content-between mb-3 mb-md-4 mb-lg-5">
+                    <a class="logo d-inline-block" href="#">
+                        <img class="" src="/static/images/bit-buddy.png" alt="Bit-buddy" />
+                    </a>
+
+                    <div class="network_social" style="margin-left:20px;">
+                        <a class="facebook_icon mr-4" href="" target="_blank"><i class="fab fa-facebook"></i></a> 
+                        <!-- <a class="youtube mr-4" href="https://www.youtube.com/channel/UCNVMKb_DMsgp0U84v12EqHA"
+                            target="_blank"><i class="fab fa-youtube"></i></a> 
+                            <a class="twitter_url" href="#insta" target="_blank"><i class="fab fa-instagram-square"></i></a>   -->
+                    </div>
+                </div>
+
+                <div class="box border-top footer-wrap d-md-flex justify-content-md-between">
+
+                    <div class="company-info mr-lg-0  mr-md-3  mb-4 mb-xl-0">
+                        <p class="title text-uppercase   mb-3 mt-lg-3">Thông tin liên hệ</p>
+                        <!-- <p class="mb-2"><i class="fa fa-map-marker-alt"></i><strong class="ml-2">ĐKKD: </strong> Vụ Bản, Tân Tiến, An Dương, Hải Phòng</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt"></i><strong class="ml-2">VPGD: </strong> Nhà 103, lô 21, CC Hoàng Huy, An Đồng, An Dương, Hải Phòng</p> -->
+                        <!-- <p class="mb-2"><i class="fas fa-balance-scale"></i></i><strong class="ml-2">MST: </strong> 0202224210</p> -->
+                        <p class="mb-2 "><i class="fa fa-phone rotate"></i><strong class="ml-2">Hotline: </strong> <a href="tel:0936783615">0936 783 615</a></p>
+                        <p class="mb-2 "><i class="fa fa-envelope"></i><strong class="ml-2">Email: </strong> <a href="mailto:BitBuddyAcademy@gmail.com">BitBuddyAcademy@gmail.com</a></p>
+
+                    </div>
+                    <div class="menu mr-lg-0 mr-md-3 mb-4 mb-xl-0">
+                        <p class="title  mb-3 mt-lg-3">Dịch vụ của chúng tôi</p>
+                        <!-- <ul class="m-0 p-0">
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học Scratch</a>
+                            </li>
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học Python
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học Game Maker</a>
+                            </li>
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học App Inventor - Phát triển ứng dụng
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học Rover STEM - robot
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học Arduino - Lập trình sáng tạo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block mb-2" href=""><i class="fas fa-circle"></i>Khóa học Raspberry Pi - Khám phá máy tính
+                                </a>
+                            </li>
+                        </ul> -->
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học Scratch</strong></a></p>
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học Python</strong></a></p>
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học Game Maker</strong></a></p>
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học App Inventor - Phát triển ứng dụng</strong></a></p>
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học Rover STEM - robot</strong></a></p>
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học Arduino - Lập trình sáng tạo</strong></a></p>
+                        <p class="mb-2 "><a href="#"><i class="fas fa-circle"></i><strong class="ml-2">Khóa học Raspberry Pi - Khám phá máy tính</strong></a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script>
             const menuBtn = document.querySelector('.menu-icon');
             const navLinks = document.querySelector('.nav-links');

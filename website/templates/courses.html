@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Bit Buddy{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css_property/courses.css') }}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="//fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Oswald:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="/static/test/asset-builder/minimalist-blocks/content.css?v=1610682058" rel="stylesheet">
+<link href="/static/test/bundle/plugins/bootstrap/bootstrap.min.css?v=1516239210" rel="stylesheet">
+<link href="/static/test/bundle/plugins/bootstrap/bootstrap-datepicker.min.css?v=1587963756" rel="stylesheet">
+<link href="/static/test/bundle/plugins/fontawesome/css/all.min.css?v=1587963446" rel="stylesheet">
+<link href="/static/test/bundle/plugins/owlcarousel/assets/owl.carousel.min.css?v=1488314592" rel="stylesheet">
+<link href="/static/test/bundle/plugins/owlcarousel/assets/owl.theme.default.min.css?v=1488314592" rel="stylesheet">
+<link href="/static/test/bundle/plugins/mmenu/mmenu.css?v=1568827520" rel="stylesheet">
+<link href="/static/test/bundle/plugins/fancybox/jquery.fancybox.min.css?v=1506992190" rel="stylesheet">
+<link href="/static/test/bundle/plugins/aos/aos.css?v=1530988838" rel="stylesheet">
+<link href="/static/test/bundle/plugins/swiper/swiper.min.css?v=1572220974" rel="stylesheet">
+<link href="/static/test/bundle/css/style.css?v=1658191881" rel="stylesheet">
+<link href="/static/test/bundle/css/customize.css?v=1658113537" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="left-column-container">
+        <h1>Convolutional Neural Network</h1>
+        <p>A CNN, or Convolutional Neural Network, 
+            is a type of artificial intelligence. It is mainly used for analyzing images. 
+            It works by breaking the image into small pieces and looking for patterns. 
+            These patterns help it recognize things in the image, like edges or shapes. 
+        </p>
+        <br>
+        <p>
+            For some of my CNN projects, I have created some models for binary classification or image classification: 
+            including classifying between cats and dogs, MNIST (hand-written digits) or applying in the medical fields to detect malaria diseases.
+        </p>
+    </div>
+    <div class="right-column-container">
+        <h2>Image Section</h2>
+        <img src="/static/images/CNN.png" alt="Example Image">
+    </div>
+</div>
+{% endblock %}

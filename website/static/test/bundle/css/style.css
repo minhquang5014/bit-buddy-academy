@@ -6650,6 +6650,10 @@ footer .menu .title {
     font-weight: 800
 }
 
+footer .menu a {
+    font-size: 13px;
+}
+
 footer .menu a i {
     font-size: 4px;
     position: relative;
@@ -6722,13 +6726,14 @@ footer .network_social a {
     display: inline-block;
     font-size: 30px;
     text-align: center;
+
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%
 }
 
 footer .network_social a i {
-    color: #da251c
+    color: #0b6b91
 }
 
 footer .network_social a:hover {
@@ -6746,9 +6751,9 @@ footer .network_social a:hover {
         max-width: 40%
     }
     footer .menu {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%
     }
     footer .map {
         -ms-flex: 0 0 65%;
@@ -6764,9 +6769,9 @@ footer .network_social a:hover {
         max-width: 35%
     }
     footer .menu {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 25%
+        -ms-flex: 0 0 35%;
+        flex: 0 0 35%;
+        max-width: 35%
     }
     footer .map {
         -ms-flex: 0 0 180px;
