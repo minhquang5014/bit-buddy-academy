@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Bit Buddy{% endblock %}
+{% block title %}Khóa Học Scratch{% endblock %}
 
 {% block styles %}
 <link rel="stylesheet" href="{{ url_for('static', filename='/css_property/courses.css') }}">
@@ -25,21 +25,15 @@
 {% block content %}
 <div class="content-container">
     <div class="left-column-container">
-        <h1>Convolutional Neural Network</h1>
-        <p>A CNN, or Convolutional Neural Network, 
-            is a type of artificial intelligence. It is mainly used for analyzing images. 
-            It works by breaking the image into small pieces and looking for patterns. 
-            These patterns help it recognize things in the image, like edges or shapes. 
-        </p>
-        <br>
-        <p>
-            For some of my CNN projects, I have created some models for binary classification or image classification: 
-            including classifying between cats and dogs, MNIST (hand-written digits) or applying in the medical fields to detect malaria diseases.
-        </p>
+        <!-- <h2>Hình ảnh minh họa</h2> -->
+        <img src="/static/images/scratch.png" alt="Example Image">
     </div>
     <div class="right-column-container">
-        <h2>Image Section</h2>
-        <img src="/static/images/CNN.png" alt="Example Image">
+        <h3>Khơi nguồn sáng tạo, lập trình từ những bước đầu tiên</h3>
+        <p>✅Phát triển tư duy logic và sáng tạo: Học sinh sẽ được hướng dẫn cách tạo ra các trò chơi, hoạt hình, và câu chuyện thông qua việc lập trình, từ đó phát triển khả năng tư duy mạch lạc và sáng tạo.</p>
+        <p>✅Học cách giải quyết vấn đề: Trẻ sẽ được tham gia vào các hoạt động lập trình đơn giản, giúp rèn luyện kỹ năng tìm kiếm giải pháp cho những vấn đề cụ thể.</p>
+        <p>✅Rèn luyện kỹ năng làm việc độc lập và teamwork: Tham gia khóa học, trẻ sẽ học cách làm việc độc lập trong quá trình lập trình và cũng học cách hợp tác với bạn bè để hoàn thành dự án.</p>
+        <p>✅Khuyến khích sự kiên nhẫn và sự chú ý đến chi tiết: Lập trình đòi hỏi sự chính xác và kiên nhẫn, điều này giúp trẻ phát triển thói quen làm việc tỉ mỉ và bền bỉ.</p>
     </div>
 </div>
 {% endblock %}

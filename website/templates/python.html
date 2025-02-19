@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Khóa Học Python{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css_property/courses.css') }}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="//fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Oswald:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="/static/test/asset-builder/minimalist-blocks/content.css?v=1610682058" rel="stylesheet">
+<link href="/static/test/bundle/plugins/bootstrap/bootstrap.min.css?v=1516239210" rel="stylesheet">
+<link href="/static/test/bundle/plugins/bootstrap/bootstrap-datepicker.min.css?v=1587963756" rel="stylesheet">
+<link href="/static/test/bundle/plugins/fontawesome/css/all.min.css?v=1587963446" rel="stylesheet">
+<link href="/static/test/bundle/plugins/owlcarousel/assets/owl.carousel.min.css?v=1488314592" rel="stylesheet">
+<link href="/static/test/bundle/plugins/owlcarousel/assets/owl.theme.default.min.css?v=1488314592" rel="stylesheet">
+<link href="/static/test/bundle/plugins/mmenu/mmenu.css?v=1568827520" rel="stylesheet">
+<link href="/static/test/bundle/plugins/fancybox/jquery.fancybox.min.css?v=1506992190" rel="stylesheet">
+<link href="/static/test/bundle/plugins/aos/aos.css?v=1530988838" rel="stylesheet">
+<link href="/static/test/bundle/plugins/swiper/swiper.min.css?v=1572220974" rel="stylesheet">
+<link href="/static/test/bundle/css/style.css?v=1658191881" rel="stylesheet">
+<link href="/static/test/bundle/css/customize.css?v=1658113537" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="left-column-container">
+        <!-- <h2>Hình ảnh minh họa</h2> -->
+        <img src="/static/images/python.png" alt="Example Image">
+    </div>
+    <div class="right-column-container">
+        <h3>Lập trình Python cơ bản, Khơi dậy đam mê công nghệ.</h3>
+        <p>✅Giúp trẻ tiếp cận với Python – một trong những ngôn ngữ lập trình phổ biến nhất thế giới, dễ học, dễ ứng dụng.</p>
+        <p>✅Trẻ học cách suy nghĩ có hệ thống, phân tích và tìm ra giải pháp tối ưu khi viết mã.</p>
+        <p>✅Học lập trình không chỉ là viết code, mà còn là cách trẻ tự tạo ra trò chơi, ứng dụng, câu chuyện kỹ thuật số theo ý tưởng riêng.</p>
+        <p>✅Việc lập trình đòi hỏi sự tỉ mỉ, kiên trì trong việc phát hiện và sửa lỗi, giúp trẻ rèn luyện sự nhẫn nại.</p>
+        <p>✅Trẻ có thể lập trình những trò chơi đơn giản, ứng dụng mini hoặc các dự án thực tế, giúp hiểu cách công nghệ vận hành xung quanh.</p>
+        <p>✅Trang bị kỹ năng công nghệ ngay từ nhỏ giúp trẻ có lợi thế vượt trội trong học tập và sự nghiệp sau này.</p>
+    </div>
+</div>
+{% endblock %}
