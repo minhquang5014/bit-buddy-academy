@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Khóa Học Rover Stem{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css_property/courses.css') }}">
+
+{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="left-column-container">
+        <!-- <h2>Hình ảnh minh họa</h2> -->
+        <img src="/static/images/game-maker.png" alt="Example Image">
+    </div>
+    <div class="right-column-container">
+        <h4>Lập trình robot – Chơi vui, học sáng tạo!</h4>
+        <p>✅Trẻ được tiếp cận với Rover STEM, một bộ robot thông minh giúp khám phá nguyên lý hoạt động của robot trong thực tế.</p>
+        <p>✅Học cách lập trình robot di chuyển, nhận diện vật cản, thực hiện nhiệm vụ tự động theo hướng dẫn.</p>
+        <p>✅Trẻ được tự tay thiết kế và lập trình robot để thực hiện các nhiệm vụ thử thách, giúp nâng cao tư duy sáng tạo.</p>
+        <p>✅Học cách làm việc nhóm để hoàn thành dự án, phối hợp với bạn bè để lập trình và điều khiển robot hiệu quả.</p>
+        <p>✅Hiểu về cảm biến, động cơ, mạch điều khiển và cách robot được sử dụng trong cuộc sống hiện đại.</p>
+
+    </div>
+</div>
+{% endblock %}

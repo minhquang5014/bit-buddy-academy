@@ -3545,11 +3545,11 @@ header.fixed .logo-menu .menubar #narbarMainMenu .navbar-nav .nav-item.static>ul
 
 .about-home .about-info .ab-left .title {
     color: #da251c;
-    font-size: 18px;
-    line-height: 1.3;
+    font-size: 25px;
+    line-height: 1.5;
     padding-right: 10px;
     font-weight: 600;
-    margin-bottom: 15px
+    margin-bottom: 5px
 }
 
 @media(min-width: 768px) {
@@ -3572,8 +3572,8 @@ header.fixed .logo-menu .menubar #narbarMainMenu .navbar-nav .nav-item.static>ul
 
 .about-home .about-info .ab-left .brief {
     color: #0b6b91;
-    font-size: 22px;
-    line-height: 1.5;
+    font-size: 26px;
+    line-height: 2;
     font-weight: 600;
     padding-right: 10px
 }
@@ -3892,11 +3892,11 @@ header.fixed .logo-menu .menubar #narbarMainMenu .navbar-nav .nav-item.static>ul
 }
 
 .service-home .header-box .title {
-    color: #d42f2f
+    color: #070404
 }
 
 .service-home .header-box .cont {
-    color: #d42f2f
+    color: #070404
 }
 
 .service-home .item-wrap {

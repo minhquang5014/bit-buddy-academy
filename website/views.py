@@ -38,3 +38,11 @@ def raspberry():
 @views.route('/rover-stem', methods=['GET', 'POST'])
 def rover_stem():
     return render_template("rover-stem.html")
+
+@views.route('/robot-courses', methods=['GET', 'POST'])
+def robot():
+    return render_template("robot.html")
+
+@views.route('/programming-courses', methods=['GET', 'POST'])
+def programming():
+    return render_template("programming.html")

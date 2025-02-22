@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Khóa Học Raspberry{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css_property/courses.css') }}">
+
+{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="left-column-container">
+        <!-- <h2>Hình ảnh minh họa</h2> -->
+        <img src="/static/images/game-maker.png" alt="Example Image">
+    </div>
+    <div class="right-column-container">
+        <h4>Biến chiếc máy tính nhỏ thành công cụ sáng tạo lớn!</h4>
+        <p>✅Trẻ được tiếp cận với Raspberry Pi, một máy tính nhỏ gọn giúp học lập trình và khám phá công nghệ điện toán.</p>
+        <p>✅Học cách viết code bằng Python, điều khiển phần cứng, tạo ứng dụng và hiểu cách máy tính vận hành.</p>
+        <p>✅Trẻ có thể tự tạo ra các sản phẩm công nghệ như máy tính cá nhân, hệ thống cảm biến thông minh, camera an ninh mini…</p>
+        <p>✅Học cách tư duy logic, xử lý lỗi và làm việc cùng bạn bè để hoàn thành các dự án công nghệ đầy thú vị.</p>
+        <p>✅Khóa học giúp trẻ hiểu về IoT (Internet of Things), trí tuệ nhân tạo (AI) và tự động hóa, trang bị nền tảng công nghệ vững chắc.</p>
+
+    </div>
+</div>
+{% endblock %}

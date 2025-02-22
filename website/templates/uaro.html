@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Khóa Học Uaro{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='/css_property/courses.css') }}">
+
+{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="left-column-container">
+        <!-- <h2>Hình ảnh minh họa</h2> -->
+        <img src="/static/images/game-maker.png" alt="Example Image">
+    </div>
+    <div class="right-column-container">
+        <h4>Chơi vui, Học dễ, Khơi nguồn đam mê công nghệ!</h4>
+        <p>✅Bé được tiếp xúc với UARO, bộ robot lập trình đơn giản, giúp phát triển tư duy công nghệ ngay từ nhỏ.</p>
+        <p>✅Thông qua các trò chơi tương tác với robot, bé sẽ dần hình thành niềm yêu thích khoa học và công nghệ.
+        <p>✅Bé học cách sắp xếp lệnh, điều khiển robot di chuyển, nhận biết hình dạng & màu sắc, rèn luyện khả năng quan sát và tư duy.</p>
+        <p>✅Lắp ráp các bộ phận robot giúp bé phát triển kỹ năng vận động tinh, tăng cường khả năng phối hợp tay và mắt.</p>
+        <p>✅Học cách giao tiếp, hợp tác với bạn bè khi cùng nhau thực hành và thử nghiệm robot.</p>
+    </div>
+</div>
+{% endblock %}
