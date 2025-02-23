@@ -3572,9 +3572,9 @@ header.fixed .logo-menu .menubar #narbarMainMenu .navbar-nav .nav-item.static>ul
 
 .about-home .about-info .ab-left .brief {
     color: #0b6b91;
-    font-size: 26px;
-    line-height: 2;
-    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 500;
     padding-right: 10px
 }
 
@@ -3604,7 +3604,7 @@ header.fixed .logo-menu .menubar #narbarMainMenu .navbar-nav .nav-item.static>ul
 
 @media(min-width: 992px) {
     .about-home .about-info .ab-left .brief {
-        font-size: 37px
+        font-size: 32px
     }
 }
 
