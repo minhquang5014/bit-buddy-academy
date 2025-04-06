@@ -78,7 +78,7 @@
 
                     <div class="company-info mr-lg-0  mr-md-3  mb-4 mb-xl-0">
                         <p class="title text-uppercase   mb-3 mt-lg-3">Thông tin liên hệ</p>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt"></i><strong class="ml-2">ĐC: </strong> Hà Nội, Việt Nam</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt"></i><strong class="ml-2">Địa Chỉ: </strong> Hà Nội, Việt Nam</p>
                         <p class="mb-2"><i class="fab fa-facebook"></i><strong class="ml-2">Facebook: </strong> Bit Buddy - Học Viện Giáo Dục Công Nghệ</p>
                         <!-- <p class="mb-2"><i class="fas fa-balance-scale"></i></i><strong class="ml-2">MST: </strong> 0202224210</p> -->
                         <p class="mb-2 "><i class="fa fa-phone rotate"></i><strong class="ml-2">Hotline: </strong> <a href="tel:0936783615">0936 783 615</a></p>
@@ -173,6 +173,8 @@
                     }, 500); // Delay ensures scrolling happens after content loads
                 }
             });
+
+            (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="NfVW9HSmRQiwq3e51swIY";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 
         </script>
     </body>
